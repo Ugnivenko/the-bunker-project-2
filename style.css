@@ -1,3 +1,12 @@
+
+:root {
+    --featured: #1C2A2C;
+    --dark: #24282B;
+    --hover: #7a958b;
+    --serif: 'Raleway', sans-serif;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -44,8 +53,8 @@ body {
 .margin-b-0 {margin-bottom: 0;}
 
 
-.bg-featured {background-color: #1C2A2C;}
-.bg-dark     {background-color: #24282B;}
+.bg-featured {background-color: var(--featured);}
+.bg-dark     {background-color: var(--dark);}
 
 .light-text {color: white;}
 
@@ -56,7 +65,7 @@ body {
 /* Typography */
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--serif);
     /* max-width: 1200px;
     margin: auto; */
 }
@@ -97,7 +106,7 @@ a {
 nav a {
     text-decoration: none;
 }
-a:hover {color: #7a958b;}
+a:hover {color: var(--hover);}
 
 /* this is a class given originally, see in html */
 .fa-brands {
@@ -116,7 +125,7 @@ footer p {
 
 /* Background Images */
 .bg-image {
-    background-color: #24282B;
+    background-color: var(--dark);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
