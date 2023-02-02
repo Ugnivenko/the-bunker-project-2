@@ -91,6 +91,10 @@ h3 {font-size: 1.8rem;}
     font-style: italic;
 }
 
+.logo {
+    font-weight: bold;
+}
+
 p, li {
     font-weight: 300;
     line-height: 1.4;
