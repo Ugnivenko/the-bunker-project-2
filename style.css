@@ -43,8 +43,10 @@ body {
 .tall-70 {min-height: 70vh;}
 .tall-80 {min-height: 80vh;}
 .tall-90 {min-height: 90vh;}
+.tall-100 {min-height: 100vh;}
 
 /* Reusable Styles */
+.padded-0  { padding: 0; }
 .padded    { padding: 5%; }
 .padded-lg { padding: 10%; }
 .padded-1  { padding: 1rem; }
@@ -150,7 +152,10 @@ footer p {
 
 /* Explore Page --------------*/
 
-.capped-width { width: 1000px;}
+.capped-width { 
+    max-width: 1000px;
+    margin: auto;
+}
 
 .explore-page h1 {
     text-align: center;
