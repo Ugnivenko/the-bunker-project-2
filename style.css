@@ -237,11 +237,11 @@ footer p {
     font-weight: 200;
     font-size: 2.5rem;
     line-height: 0.8;
-    margin-top: -0.3px;
-    position: fixed;
+    margin-top: 1.5px;
+    /* position: fixed;
     top: 2.2rem;
     right: 1rem;
-    z-index: 2;
+    z-index: 2; */
   }
 .hamburger-button a:hover { color: var(--hover);}
 .hamburger-button.active {color: white;}
@@ -264,5 +264,6 @@ footer p {
         background-color: #1C2A2C;
         min-height: 35vh;}
     }
-
+    .bg-roof-sm {background-image: url('/images/the-bunker-5.jpg');}
+    .center-sm { text-align: center;}
  
