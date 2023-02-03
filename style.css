@@ -256,7 +256,8 @@ footer p {
     .hide-sm  {display: none;}
     .flex-flip-sm {flex-direction: column-reverse;}
     .mob-show {display: block;}
-
+    .mobile-menu { display: none;}
+    
     h1 {font-size: 4rem;}
     footer h2 {font-size: 3rem;}
 
