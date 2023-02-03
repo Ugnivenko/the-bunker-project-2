@@ -55,12 +55,15 @@ body {
 .margin-b-0 {margin-bottom: 0;}
 .margin-b-1 {margin-bottom: 1rem;}
 .margin-b-2 {margin-bottom: 2rem;}
+.margin-2 { margin: 2rem;}
 
 
 .bg-featured {background-color: var(--featured);}
 .bg-dark     {background-color: var(--dark);}
 
 .light-text {color: white;}
+.text-dark { color: var(--dark);}
+.text-featured { columns: var(--featured);}
 
 .left {text-align: left;}
 .center {text-align: center;}
@@ -91,8 +94,11 @@ h3 {font-size: 1.8rem;}
     font-style: italic;
 }
 
-.logo {
+.logo-bold {
     font-weight: bold;
+}
+.logo-size { 
+    font-size: 2rem;
 }
 
 p, li {
@@ -113,9 +119,8 @@ a {
     margin-right: 0.5rem;
 }
 
-nav a {
-    text-decoration: none;
-}
+
+
 a:hover {color: var(--hover);}
 
 /* this is a class given originally, see in html */
@@ -158,8 +163,25 @@ footer p {
 .bg-padded {padding-bottom: 30%;}
 .social-banner {background-position: 50% 16%;}
 
-/* Explore Page --------------*/
+/* Overlay Main Banner---------------- */
+.bg-overlay { position: relative; }
+.bg-overlay::before {
+   content: ""; 
+   position: absolute;
+   top: 0;
+   left: 0;
+    bottom: 0;
+    right: 0;
+   background-color: rgba(0,0,0,0.2);
+ }
+.bg-overlay > * { position: relative; }
 
+.bg-overlay-gradient::before { 
+    background: linear-gradient(180deg, rgba(0,0,0,0.2), rgba(0,0,0,0));
+  } 
+  
+
+/* Explore Page --------------*/
 .capped-width { 
     max-width: 1000px;
     margin: auto;
@@ -175,6 +197,7 @@ footer p {
     padding: 1rem 1.5rem;
     margin-bottom: 1rem;
     border: 1px solid;
+    color: white;
 }
 .explore-page .featured {
     background-color: tan;
