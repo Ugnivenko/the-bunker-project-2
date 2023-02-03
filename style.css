@@ -250,6 +250,7 @@ footer p {
 .mobile-menu { display: none;}
 .mob-show {display: none;}
 
+
 @media(max-width:48em) {
 
     .hide-sm  {display: none;}
@@ -265,5 +266,4 @@ footer p {
         min-height: 35vh;}
     }
     .bg-roof-sm {background-image: url('/images/the-bunker-5.jpg');}
-    .center-sm { text-align: center;}
- 
+    
