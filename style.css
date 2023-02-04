@@ -212,23 +212,25 @@ footer p {
     display: none;
     color: white;
     background-color: var(--hover);
-    padding: 2%;
+    padding: 3%;
     position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
+    z-index: 3;
   }
 .mobile-menu a {
     display: block;
     font-weight: normal;
     font-size: 1.5rem;
     text-align: left;
-    padding-right: 4rem;
-    padding-left: 3rem;
-    border-bottom: 1px solid;
+    padding: 0.2rem 0.6rem;
+    margin-bottom: 0.8rem;
+    margin-left: 2rem;
+    margin-right: 6rem;
   }
 
-.mobile-menu a:first-child {padding-top: 15vh;}
+.mobile-menu a:first-child {margin-top: 15vh;}
   
 .hamburger-button {
     display: inline-block;
@@ -238,10 +240,10 @@ footer p {
     font-size: 2.5rem;
     line-height: 0.8;
     margin-top: 1.5px;
-    /* position: fixed;
+    position: fixed;
     top: 2.2rem;
     right: 1rem;
-    z-index: 2; */
+    z-index: 4;
   }
 .hamburger-button a:hover { color: var(--hover);}
 .hamburger-button.active {color: white;}
