@@ -138,7 +138,7 @@ footer h2 {
 footer p {
     margin-bottom: 0.2rem;
 }
-
+footer a:hover { color: var(--hover);}
 /* Background Images */
 .bg-image {
     background-color: var(--dark);
