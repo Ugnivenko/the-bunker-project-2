@@ -241,14 +241,19 @@ footer a:hover { color: var(--hover);}
     font-size: 2.5rem;
     line-height: 0.8;
     margin-top: 1.5px;
-    position: fixed;
-    top: 2.2rem;
-    right: 1rem;
+    position: relative;
+    /* top: 2.2rem;
+    right: 1rem; */
     z-index: 4;
   }
 .hamburger-button a:hover { color: var(--hover);}
 .hamburger-button.active {color: white;}
 
+.hamburger-button.active {
+    position: fixed;
+    top: 2.2rem;
+    right: 1rem;
+}
 
 .mobile-menu { display: none;}
 .mob-show {display: none;}
