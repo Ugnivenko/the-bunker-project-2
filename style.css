@@ -147,22 +147,28 @@ footer a:hover { color: var(--hover);}
     background-repeat: no-repeat;
     background-image: url('/images/the-bunker-1.jpg');
 }
-.bg-roof {background-image: url('/images/the-bunker-5.jpg');
+.bg-roof {
+    background-image: url('/images/social.jpg');
 }
-.bg-bed {background-image: url('/images/the-bunker-1.jpg');
+.bg-about {background-image: url('/images/up-roof.jpg');
+}
+.bg-bed {background-image: url('/images/pillow.jpg');
 }
 .bg-hallway {background-image: url('/images/the-bunker-3.jpg');
 }
-.bg-lounge {background-image: url('/images/the-bunker-4.jpg');
+.bg-lounge {background-image: url('/images/bar-plant.jpg');
+    background-position: 50% 40%
 }
-.bg-lounge-2 {background-image: url('/images/the-bunker-2.jpg');
+.bg-lounge-2 {background-image: url('/images/bg-gallery-6.jpg');
 }
-.bg-sheets {background-image: url('/images/the-bunker-7.jpg');
-}
+.bg-sheets { background-image: url('/images/the-bunker-7.jpg');}
 .bg-map {background-image: url('/images/the-bunker-6.png');
 }
 .bg-padded {padding-bottom: 30%;}
-.social-banner {background-position: 50% 16%;}
+.social-banner {
+    background-image: url('/images/negative-space.jpg');
+    background-position: 50% 20%;
+color: var(--featured);}
 
 /* ------ Overlay Main Banner---------------- */
 .bg-overlay { position: relative; }
