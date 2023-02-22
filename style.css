@@ -283,7 +283,7 @@ color: var(--featured);}
 
   @media (max-width: 36em) {
 
-    body {border: 2px solid red;}
+    /* body {border: 2px solid red;} */
 
     .xs-tall-60 { min-height: 60vh;}
     h1 { font-size: 3.5rem;}
