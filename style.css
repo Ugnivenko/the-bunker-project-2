@@ -97,9 +97,6 @@ h3 {font-size: 1.8rem;}
 .logo-bold {
     font-weight: bold;
 }
-.logo-size { 
-    font-size: 2rem;
-}
 
 p, li {
     font-weight: 300;
@@ -277,8 +274,9 @@ color: var(--featured);}
 
     .social-banner {
         min-height: 35vh;}
+    .sm-tall-60 {min-height: 60vh;}
     }
- 
+    .sm-center {text-align: center;}
 
     
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -287,14 +285,25 @@ color: var(--featured);}
 
     body {border: 2px solid red;}
 
-    h1 { font-size: 1.8rem;}
+    .xs-tall-60 { min-height: 60vh;}
+    h1 { font-size: 3.5rem;}
     h2 { font-size: 1.7rem;  }
  
     .xs-padded-t-1  { padding-top: 1rem;}
+    .xs-padded-t-2 {padding-top: 2rem;}
+
     .xs-margin-1  {
         margin-top: 1rem;
         margin-bottom: 1rem;
         }
+.bg-about {
+    background-position: 50% 20%;
+    min-height: 40vh;
+}
+.bg-map {min-height: 30vh;}
+.xs-center { text-align: center;}
 
-
+.hamburger-button.active {
+    color: white;
+  }
   }
