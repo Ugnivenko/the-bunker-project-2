@@ -276,9 +276,25 @@ color: var(--featured);}
     footer h2 {font-size: 3rem;}
 
     .social-banner {
-        background-image: none; 
-        background-color: #1C2A2C;
         min-height: 35vh;}
     }
-    .bg-roof-sm {background-image: url('/images/the-bunker-5.jpg');}
+ 
+
     
+/* ------- XS Media Query (36em / 576px) --------------- */ 
+
+  @media (max-width: 36em) {
+
+    body {border: 2px solid red;}
+
+    h1 { font-size: 1.8rem;}
+    h2 { font-size: 1.7rem;  }
+ 
+    .xs-padded-t-1  { padding-top: 1rem;}
+    .xs-margin-1  {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        }
+
+
+  }
