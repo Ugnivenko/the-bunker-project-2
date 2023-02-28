@@ -12,7 +12,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{ 
+    scroll-behavior: smooth;
+    transition: all 0.4s;
+  }
+  
 /* NOTES
 Colors */
 /* featured #1C2A2C 
